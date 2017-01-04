@@ -20,7 +20,7 @@ COMMENTS
   to check if that is a valid substring.
 """
 
-def lengthOfLongestSubstring(self, s):
+def lengthOfLongestSubstring(s):
         """
         :type s: str
         :rtype: int
