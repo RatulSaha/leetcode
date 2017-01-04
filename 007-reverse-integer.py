@@ -20,19 +20,19 @@ COMMENTS
 - Python allows 64-bit integers, so we need to mimic 32-bit integer overflow.
 """
 
-def reverse(self, x):
+def reverse(x):
         """
         :type x: int
         :rtype: int
         """
         if (x<0):
-            x = abs(x)
-            neg = -1
+                x = abs(x)
+                neg = -1
         else:
-            neg = 1
-            
+                neg = 1
+
         rev_x = int(str(x)[::-1])
         if abs(rev_x) < 2147483648:
-            return rev_x*neg
+                return rev_x*neg
         else:
-            return 0
+                return 0
