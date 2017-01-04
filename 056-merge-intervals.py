@@ -18,6 +18,11 @@ COMMENTS
 - O(n log n) time complexity and O(n) space complexity, assuming in-place sort.
 """
 
+class Interval(object):
+    def __init__(self, s=0, e=0):
+        self.start = s
+        self.end = e
+
 def merge(intervals):
         """
         :type intervals: List[Interval]
