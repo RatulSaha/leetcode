@@ -1,2 +1,13 @@
 # leetcode
-The mediocre solutions to leetcode problems using Python
+This repository contains solutions to a set of problems from https://leetcode.com (highly recommended for interview preperation).
+
+There are quite a few repositories available already that are more exhaustive, plus the discuss forum in leetcode is excellent too (go check them out!). This particular repository serves a different purpose, it takes each problem as if posed by an interviewer, and very briefly chalks out the possible questions the interviewee should ask, the early comments one may make about their approach, and a very mediocre solution. Mostly easy and medium level problems are addressed. Please note that this should provide an interview prep suggestions, not the cool or even the most efficient solution.
+
+## Issues
+- A small number of solutions may give a timeout in leetcode online judge.
+- Some solutions may have misplaced ```self```, because the solutions were checked by the leetcode OJ first.
+
+## Disclaimers
+- A small number of problems may be influenced by solutions from elsewhere (such as discuss forum), but due credit is given in such case.
+- This list of problems is neither exclusive nor exhaustive.
+- This repository does not contain another important part of tech interviews, system design problems.
