@@ -8,22 +8,22 @@ Some basic data structure initiations may be pressumed and is listed below for r
 
 A binary tree node is initiated as follows:
 
-'''
+```
 class TreeNode(object):
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
-'''
+```
 
 A linked list node is initiated as follows:
 
-'''
+```
 class ListNode(object):
     def __init__(self, x):
         self.val = x
         self.next = None
-'''
+```
 
 ## Issues
 - A small number of solutions may give a timeout in leetcode online judge.
