@@ -11,6 +11,8 @@ EXAMPLES
 COMMENTS
 - We remember the current level of nodes, the next level of nodes and the values of the current level of nodes.
 - Then, we update the level with the next level and keep going until the level is empty.
+- The time complexity is linear in the number of nodes while the space complexity is linear
+  in the maximum size of the levels (which can essentially be the number of nodes).
 """
 
 def levelOrder(root):
