@@ -17,6 +17,7 @@ EXAMPLES
 COMMENTS
 - We keep a dictionary of possible sum and their indices.
 - Then we do nested iteration to find the rest two values.
+- The time complexity is O(n^2), probably O(n^3), when the complementary set is in order of n.
 """
 
 from collections import defaultdict
