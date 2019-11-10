@@ -21,6 +21,8 @@ COMMENTS
 - if it is too high (greater than target), reduce high's index by 1
 - if it is too low (less than target), increase low's index by 1
 - if it is the same as target return [low, high]
+- Time complexity is O(n) because at most you will visit each element once
+- Space complexity is O(1) because you assign high, low, and sum 
 
 GOTCHAS
 - not 0 indexed so you need to add one to final low and high
